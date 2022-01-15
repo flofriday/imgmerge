@@ -28,7 +28,7 @@ def merge_files(path: str):
     # Delete all existing artefacts
     for entry in blocklist:
         try:
-            os.remove(entry)
+            os.remove(os.path.join(path, entry))
         except FileNotFoundError:
             pass
 
