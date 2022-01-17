@@ -1,6 +1,6 @@
 # imgmerge
 
-Deamon to watch a directory and merge alle images in it.
+Daemon to watch a directory and merge alle images in it.
 
 ## Installation
 
